@@ -1,0 +1,5 @@
+2018-11-22 19:53:10,911:INFO: 2018-11-22 19:53:10 epoch 1, step 1, loss: 8.008, global_step: 1
+2018-11-22 19:54:14,349:INFO: 2018-11-22 19:53:10 epoch 1, step 300, loss: 6.241, global_step: 300
+2018-11-22 19:55:56,318:INFO: 2018-11-22 19:53:10 epoch 1, step 600, loss: 6.492, global_step: 600
+2018-11-22 19:56:56,810:INFO: 2018-11-22 19:53:10 epoch 1, step 715, loss: 6.295, global_step: 715
+2018-11-22 19:56:57,422:INFO: 2018-11-22 19:56:57 epoch 2, step 1, loss: 6.077, global_step: 716
