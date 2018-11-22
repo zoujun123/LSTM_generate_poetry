@@ -176,7 +176,7 @@ class Poetry_LSTM(object):
             # step_num 标志是总的第几个batch
             step_num = epoch * num_batches + step + 1
             feed_dict = {self.x_poetry_id: xdata, self.y_tf: ydata}
-            print ("self.x_poetry_id: ", self.x_poetry_id.shape)
+            # print ("self.x_poetry_id: ", self.x_poetry_id.shape)
             train_loss, i, j, step_num_ = sess.run([self.cost, self.final_state,
                                                     self.train_op, self.global_step],
                                                     feed_dict=feed_dict)
@@ -241,5 +241,5 @@ class Poetry_LSTM(object):
                 word = self.to_word(probs[-1])
                 if len(poem) == 5 or len(poem)%6 == 5:
                     poem += '\n'
-                print ("word: ", word)
+                # print ("word: ", word)
             return poem

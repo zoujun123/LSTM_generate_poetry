@@ -17,7 +17,7 @@ parser.add_argument('--optimizer', type=str, default='Adam', help='Adam/Adadelta
 parser.add_argument('--lr', type=float, default=0.001, help='learning rate')
 parser.add_argument('--embedding_dim', type=int, default=100, help='random init char embedding_dim')
 parser.add_argument('--layers', type=int, default=2, help='layers of rnn')
-parser.add_argument('--mode', type=str, default='train', help='train/test')
+parser.add_argument('--mode', type=str, default='test', help='train/test')
 # parser.add_argument('--dropout', type=float, default=0.5, help='dropout keep_prob')
 # parser.add_argument('--update_embedding', type=str2bool, default=True, help='update embedding during training')
 # parser.add_argument('--pretrain_embedding', type=str, default='random', help='use pretrained char embedding or init it randomly')
